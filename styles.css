@@ -1,0 +1,175 @@
+/* Basic styles for the surfing music page */
+body {
+  /* Replace 'background.jpg' with your image file */
+  
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  background-color: #D4FBFF;
+  font-family: 'Dela Gothic One', sans-serif; /* Adding the font family for the whole site */
+}
+
+#shuffleButton {
+  position: absolute;
+  top: 19%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  background-color: #1f4068; /* Dark blue for the button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Dela Gothic One', sans-serif;
+  cursor: pointer;
+}
+
+#shuffleButton:hover {
+  background-color: #255957; /* Darker blue on hover */
+}
+/* Basic styles for the surfing music page */
+/* ... (previously defined styles) */
+
+#playPauseButton {
+  position: absolute;
+  top: 22%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  background-color: #1f4068; /* Dark blue for the button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Dela Gothic One', sans-serif;
+  cursor: pointer;
+}
+
+#playPauseButton:hover {
+  background-color: #255957; /* Darker blue on hover */
+}
+/* Basic styles for the surfing music page */
+/* ... (previously defined styles) */
+
+h1 {
+  font-family: 'Dela Gothic One', sans-serif;
+  text-align: center !important; /* Add !important to prioritize this style */
+  /* Other potential conflicting styles */
+}
+
+/* Rest of your CSS styles remain unchanged */
+
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.intro-section {
+  text-align: center;
+  padding: 100px 0;
+}
+
+
+.song-card {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto 20px; /* Add bottom margin to create space between song cards */
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.song-card img {
+  width: 100%; /* Set the width to fill its container */
+  height: auto; /* Allow the height to adjust proportionally */
+  border-radius: 8px;
+}
+
+.songs-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.song-card:first-child {
+  margin-top: 200px; /* Adjust the top margin for the first song card */
+}
+
+/* Add some padding after the last song card */
+.songs-section .song-card:last-child {
+  margin-bottom: 80px; /* Increase bottom margin for the last song card */
+}
+
+
+
+
+
+
+.song-card img {
+  width: 450px;
+  height: 450px;
+  border-radius: 8px;
+}
+
+/* Rest of your CSS styles remain unchanged */
+
+
+/* Rest of your CSS styles remain unchanged */
+
+
+/* Rest of your CSS styles remain unchanged */
+
+
+footer {
+  background-color: #1f4068;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0; /* Add some vertical space around the title */
+  font-family: 'Dela Gothic One', sans-serif;
+}
+
+header {
+  background-color: #1f4068; /* Dark blue for the header */
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Center the navigation links */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
