@@ -11,12 +11,13 @@ body {
 header {
   background-color: #1f4068; /* Dark blue for the header */
   color: #fff;
-  padding: 20px 0;
+  padding: 1px 0;
 }
 
 h1 {
   font-family: 'Dela Gothic One', sans-serif;
   text-align: center !important; /* Add !important to prioritize this style */
+font-size: 80px;
 }
 
 footer {
@@ -31,7 +32,7 @@ footer {
 
 .controls {
   text-align: center; /* Center the buttons horizontally */
-  margin-top: 30px; /* Adjust margin as needed */
+  margin-top: 50px; /* Adjust margin as needed */
 }
 
 #shuffleButton {
@@ -42,6 +43,7 @@ footer {
   border-radius: 5px;
   font-family: 'Dela Gothic One', sans-serif;
   cursor: pointer;
+  font-size: 30px;
   
 }
 
@@ -52,6 +54,7 @@ footer {
   padding: 8px 20px 12px; /* Adjusted padding for play/pause button */
   border-radius: 5px;
   font-family: 'Dela Gothic One', sans-serif;
+  font-size: 30px;
   cursor: pointer;
   margin-top: 10px; /* Adjusted top margin for play/pause button */
 }
@@ -81,7 +84,7 @@ main {
 
 .intro-section {
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 100px;
 }
 
 .song-card {
@@ -110,7 +113,7 @@ main {
 
 /* Add some padding after the last song card */
 .songs-section .song-card:last-child {
-  margin-bottom: 80px; /* Increase bottom margin for the last song card */
+  margin-bottom: 120px; /* Increase bottom margin for the last song card */
 }
 
 /* Additional styles for image size */
