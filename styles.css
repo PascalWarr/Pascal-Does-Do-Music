@@ -1,0 +1,131 @@
+/* Basic styles for the surfing music page */
+body {
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  font-family: 'Dela Gothic One', sans-serif; /* Adding the font family for the whole site */
+}
+
+header {
+  background-color: #1f4068; /* Dark blue for the header */
+  color: #fff;
+  padding: 1px 0;
+}
+
+h1 {
+  font-family: 'Dela Gothic One', sans-serif;
+  text-align: center !important; /* Add !important to prioritize this style */
+font-size: 80px;
+}
+h4 {
+  font-family: 'OCR A Std', monospace;
+  text-align: center !important; /* Add !important to prioritize this style */
+font-size: 30px;
+}
+
+footer {
+  background-color: #1f4068;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.controls {
+  text-align: center; /* Center the buttons horizontally */
+  margin-top: 50px; /* Adjust margin as needed */
+}
+
+#shuffleButton {
+  background-color: #1f4068; /* Dark blue for the shuffle button */
+  color: #fff;
+  border: none;
+  padding: 20px 20px 20px; /* Adjusted padding for shuffle button */
+  border-radius: 5px;
+  font-family: 'Dela Gothic One', sans-serif;
+  cursor: pointer;
+  font-size: 30px;
+  
+}
+
+#playPauseButton {
+  background-color: #1f4068; /* Dark blue for the play/pause button */
+  color: #fff;
+  border: none;
+  padding: 8px 20px 12px; /* Adjusted padding for play/pause button */
+  border-radius: 5px;
+  font-family: 'Dela Gothic One', sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  margin-top: 10px; /* Adjusted top margin for play/pause button */
+}
+
+#shuffleButton:hover, #playPauseButton:hover {
+  background-color: #255957; /* Darker blue on hover */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Center the navigation links */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+main {
+  padding: 0px;
+}
+
+.intro-section {
+  text-align: center;
+  padding: 100px 100px;
+}
+
+.song-card {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto 10px; /* Reduce bottom margin to create less space between song cards and buttons */
+  border-radius: 8px;
+  background-color: #f7f5f5;
+}
+
+.song-card img {
+  width: 100%; /* Set the width to fill its container */
+  height: auto; /* Allow the height to adjust proportionally */
+  border-radius: 8px;
+}
+
+.songs-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.song-card:first-child {
+  margin-top: 60px; /* Adjust the top margin for the first song card */
+}
+
+/* Add some padding after the last song card */
+.songs-section .song-card:last-child {
+  margin-bottom: 120px; /* Increase bottom margin for the last song card */
+}
+
+/* Additional styles for image size */
+.song-card img {
+  width: 450px;
+  height: 450px;
+  border-radius: 8px;
+}
+
+/* Rest of your CSS styles remain unchanged */
